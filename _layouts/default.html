@@ -8,10 +8,11 @@
 {{ content }}
 <!-- UY BEGIN -->
 <script>
-alert(window.location.href);
+if(window.location.href!='http://chenzhaojx.github.io/jekyll_demo/'){
+	document.write('<div id="uyan_frame"></div><script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>');
+}
 </script>
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+
 <!-- UY END -->
 </body>
 </html>
